@@ -170,7 +170,7 @@ footer input[type="text"],footer input[type="email"],footer[textarea]{
     border: none;
 }
 @media screen and (max-width:576px){
-    .skill-container , .resume-container,footer{
+    .skill-container , .resume-container,footer,.banner ,nav, nav>ul{
         flex-direction: column;
     }
     footer{
@@ -189,4 +189,24 @@ footer input[type="text"],footer input[type="email"],footer[textarea]{
         flex-wrap: wrap;
         justify-content: space-between;
     }
+    .banner{
+        margin: 20px;
+    }
+    .heade{
+        background-image: none;
+    }
+    .banner-contant{
+        width: 200px;
+        height: 650px;
+        
+    }
+.banner-pic{
+    width: 100%;
+}
+nav > ul{
+    gap: 20px;
+}
+.btn-primary{
+    margin-bottom: 20px;
+}
 }
